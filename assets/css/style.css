@@ -1,10 +1,10 @@
-* {
+* { /*Universal selector*/
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-body {
+body { /*Element selector, in this case for the body element*/
     background-color: #d9dcd6;
 }
 
@@ -15,12 +15,12 @@ header {
     color: #ffffff;
 }
 
-header h1 {
+header h1 { /*selects all h1 elements in the header element, of which there is only one*/
     display: inline-block;
     font-size: 48px;
 }
 
-header h1 .seo {
+header h1 .seo {    /*selects all elements with class "seo" in all h1 elements in the header, of which there is only one*/
     color: #d9dcd6;
 }
 
@@ -36,8 +36,8 @@ header div ul {
     list-style-type: none;
 }
 
-header div ul li {
-    display: inline-block;
+header div ul li {     
+    display: inline-block;   /*puts header links onto the same line*/
     margin-left: 25px;
 }
 
@@ -50,7 +50,7 @@ p {
     font-size: 16px;
 }
 
-.hero {
+.hero { /*a class selector, in this cases selecting all elements with the class "hero", of which there is only one*/
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -65,7 +65,7 @@ p {
     margin-left: 20px;
 }
 
-.float-left {
+.float-left {   /*The float-left and float-right classes allow for alternating which side of the containing element images appear on this web site.*/
     float: left;
     margin-right: 25px;
 }
